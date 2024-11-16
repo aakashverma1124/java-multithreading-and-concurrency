@@ -136,5 +136,7 @@ public class Driver {
 
 > Another reason for using `synchronized` keyword is because `wait()` and `notify()` requires lock ownership. These methods are part of Java's intrinsic locking mechanism and are designed to work in `synchronized` blocks or methods only. When a thread calls `wait()` on an object, it must hold the lock on that object. Without holding the lock, the JVM throws the `IllegalMonitorStateException`.
 
+## notifyAll()
+This method is the same as the `notify()` one except that it wakes up all the threads that are waiting on the object's monitor.
 
 I hope you enjoyed this chapter. Connect with me on [LinkedIn](https://www.linkedin.com/in/aakashverma1124/), [Instagram](https://www.instagram.com/aakashverma1102/), and [Discord](https://discord.gg/hgvaFFXvjM).
