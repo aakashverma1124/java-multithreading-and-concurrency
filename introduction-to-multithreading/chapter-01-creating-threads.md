@@ -1,6 +1,6 @@
 # Chapter 1: Creating Threads
 
-In java frameword, we can create theads in multiple ways:
+In java framework, we can create theads in multiple ways:
 
 ## 1. Using a class which extends `Thread` class
 
