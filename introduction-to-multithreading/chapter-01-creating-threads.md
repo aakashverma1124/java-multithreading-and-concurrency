@@ -7,7 +7,7 @@ In java frameword, we can create theads in multiple ways:
 ### Code Example
 
 ```java
-package com.completeinterview.accounts.practice;
+package com.completeinterview.multithreading;
 
 class Task extends Thread {
 
@@ -65,7 +65,7 @@ When we create a thread, we need to provide the created thread code to execute, 
 ### Code Example
 
 ```java
-package com.completeinterview.accounts.practice;
+package com.completeinterview.multithreading;
 
 class Task implements Runnable {
 
@@ -120,7 +120,7 @@ Hello Thread-0
 ### Code Example
 
 ```java
-package com.completeinterview.accounts.practice;
+package com.completeinterview.multithreading;
 
 public class Driver {
   public static void main(String[] args) {
@@ -173,7 +173,7 @@ World main
 ### Code Example
 
 ```java
-package com.completeinterview.accounts.practice;
+package com.completeinterview.multithreading;
 
 public class Driver {
   public static void main(String[] args) {
