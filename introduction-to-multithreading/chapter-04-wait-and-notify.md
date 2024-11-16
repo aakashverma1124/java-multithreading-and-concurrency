@@ -37,7 +37,7 @@ public class Driver {
     Thread thread2 =
         new Thread(
             () -> {
-              for (int i = 1; i <= 50; i += 2) {
+              for (int i = 1; i < 50; i += 2) {
                 printer.printOdd(i);
               }
             });
